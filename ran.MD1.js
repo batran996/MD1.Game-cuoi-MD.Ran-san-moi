@@ -146,7 +146,7 @@ function checkVaCham() {
     }
 }
 
-const delay = debounce((e) => keyDown(e),100)
+const delay = debounce((e) => keyDown(e),70)
 
 //tao fun di chuyen sẽ kết hợp với biến vận tốc //
 document.body.addEventListener("keydown", delay);
